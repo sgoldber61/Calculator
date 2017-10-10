@@ -1,0 +1,96 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/3d/ea/53/3dea538729e6ad37e8931dd13cda14ce.jpg");
+    height: 100%;
+    background-size: cover;
+}
+
+#central-calculator {
+  background-image: url("https://images.designtrends.com/wp-content/uploads/2015/12/19111616/Scratched-Metal-Texture1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 75px;
+  height: 550px;
+  border-radius: 10px;
+}
+
+#calc-input {
+  background-color: black;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: right;
+  font-family: Monospace;
+  color: darkgreen;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#calc-input div {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#calc-input div p {
+  float: right;
+}
+
+#top-line {
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+#main-line {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.calc-span {
+  width: 25%;
+  padding: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  float: left;
+}
+
+.calc-span.red-button {
+  background: url("https://openclipart.org/download/246397/RedPB.svg") center no-repeat;
+  background-size: 60px 60px;
+}
+
+.calc-span.green-button {
+  background: url("https://openclipart.org/download/246394/GreenPB.svg") center no-repeat;
+  background-size: 60px 60px;
+}
+
+.calc-span.blue-button {
+  background: url("https://openclipart.org/download/246393/BluePB.svg") center no-repeat;
+  background-size: 60px 60px;
+}
+
+.calc-span.yellow-button {
+  background: url("https://openclipart.org/download/246400/YellowPB.svg") center no-repeat;
+  background-size: 60px 60px;
+}
+
+.calc-span.black-button {
+  background: url("https://openclipart.org/download/246392/BlackPB.svg") center no-repeat;
+  background-size: 60px 60px;
+}
+
+.calc-span button {
+  background-color: Transparent;
+  border: none;
+  font-size: large;
+  color: white;
+  height: 52px;
+  width: 52px;
+}
+
+.calc-span button:active {
+  padding: 0;
+}
